@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PromoHero() {
   return (
     <div className="relative overflow-hidden bg-white">
@@ -5,13 +7,10 @@ export default function PromoHero() {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Marketplace starter kit
-              <br />
-              is finally here
+              NFT Marketplace here.
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              Whether you are building a marketplace for your business or for
-              your clients, we have you covered.<br/>Get started in 10 minutes.
+              A suitable place to buy NFTs is the NFT Marketplace, which brings artists and creators to a unique platform. Purchase high-quality and exclusive NFTs created by top artists from around the world. Exclusive NFTs
             </p>
           </div>
           <div>
@@ -25,37 +24,14 @@ export default function PromoHero() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                         <img
-                          src="/home-page-03-hero-image-tile-01.jpg"
+                          src="/hero1.avif"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="/home-page-03-hero-image-tile-05.jpg"
+                          src="/hero2.avif"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -64,14 +40,37 @@ export default function PromoHero() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/home-page-03-hero-image-tile-06.jpg"
+                          src="/hero3.avif"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/home-page-03-hero-image-tile-07.jpg"
+                          src="/hero4.avif"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/hero5.avif"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/hero6.avif"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/collection-art7.avif"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -81,11 +80,11 @@ export default function PromoHero() {
                 </div>
               </div>
 
-              <a href="https://meshjs.dev/guides/custom-marketplace">
+              <Link href="collection">
                 <span className="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">
-                  Create your custom marketplace
+                  NFT Collections
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

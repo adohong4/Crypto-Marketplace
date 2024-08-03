@@ -1,11 +1,11 @@
-import HomeListings from "@/components/HomeListings";
+import CategorySection from "@/components/CategorySection";
 import PromoHero from "@/components/PromoHero";
 
 export default function Home() {
   return (
     <>
       <PromoHero />
-      <HomeListings />
+      <CategorySection />
     </>
   );
 }

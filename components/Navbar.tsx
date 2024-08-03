@@ -14,9 +14,10 @@ export default function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
                   <>
+                    <span className="sr-only">Logo</span>
                     <img
                       className="h-8 w-auto"
-                      src="https://meshjs.dev/logo-mesh/black/logo-mesh-black-128x128.png"
+                      src="/ada.webp"
                       alt="logo"
                     />
                   </>
@@ -26,13 +27,38 @@ export default function Navbar() {
               <div className="hidden lg:ml-8 lg:block lg:self-stretch">
                 <div className="flex h-full space-x-8">
                   <span className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
-                    <Link href="/user">Your Assets</Link>
+                    <Link href="/collection">COLLECTIONS</Link>
                   </span>
                 </div>
               </div>
 
+              <div className="hidden lg:ml-8 lg:block lg:self-stretch">
+                <div className="flex h-full space-x-8">
+                  <span className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800">
+                    <Link href="/guide">GUIDE</Link>
+                  </span>
+                </div>
+              </div>
+
+
               <div className="ml-auto flex items-center">
-                <CardanoWallet />
+                <div className="hidden lg:ml-8 lg:flex">
+                  <a
+                    href="#"
+                    className="flex items-center text-gray-700 hover:text-gray-800"
+                  >
+                    <img
+                      src="/ada.webp"
+                      alt=""
+                      className="block h-auto w-5 flex-shrink-0"
+                    />
+                    <span className="ml-3 block text-sm font-medium">ADA</span>
+                    <span className="sr-only">, change currency</span>
+                  </a>
+                </div>
+                <div className="ml-auto flex items-center">
+                  <CardanoWallet />
+                </div>
               </div>
             </div>
           </div>
